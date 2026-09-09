@@ -1,0 +1,5 @@
+exit
+cls
+clear
+cd
+docker stop mongo1

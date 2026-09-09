@@ -1,0 +1,1195 @@
+[
+  {
+    "Nombre": "Mario Castañeda",
+    "Nacionalidad": "Mexico",
+    "FechaNacimiento": "1955-01-19",
+    "Patrimonio": 3500000,
+    "Idiomas": [
+      "Espanol",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Goku",
+        "Produccion": "Dragon Ball Z",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 291,
+        "Generos": [
+          "Accion",
+          "Aventura",
+          "Fantasia"
+        ]
+      },
+      {
+        "NombrePersonaje": "Piccolo (voz adicional)",
+        "Produccion": "Dragon Ball Super",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "Apariciones": 40,
+        "Generos": [
+          "Accion",
+          "Aventura"
+        ]
+      }
+    ],
+    "Edad": 71
+  },
+  {
+    "Nombre": "Laura Torres",
+    "Nacionalidad": "Mexico",
+    "FechaNacimiento": "1965-08-08",
+    "Patrimonio": 1800000,
+    "Idiomas": [
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Goku niño",
+        "Produccion": "Dragon Ball",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 153,
+        "Generos": [
+          "Accion",
+          "Aventura",
+          "Fantasia"
+        ]
+      },
+      {
+        "NombrePersonaje": "Bart Simpson",
+        "Produccion": "Los Simpson",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 780,
+        "Generos": [
+          "Comedia",
+          "Sátira"
+        ]
+      }
+    ],
+    "Edad": 61
+  },
+  {
+    "Nombre": "Jose Antonio Macias",
+    "Nacionalidad": "Mexico",
+    "FechaNacimiento": "1957-04-04",
+    "Patrimonio": 2100000,
+    "Idiomas": [
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Vegeta",
+        "Produccion": "Dragon Ball Z",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 275,
+        "Generos": [
+          "Accion",
+          "Aventura",
+          "Fantasia"
+        ]
+      },
+      {
+        "NombrePersonaje": "Kratos",
+        "Produccion": "God of War",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 1,
+        "Generos": [
+          "Accion",
+          "Aventura"
+        ]
+      }
+    ],
+    "Edad": 69
+  },
+  {
+    "Nombre": "Patrick Seitz",
+    "Nacionalidad": "Estados Unidos",
+    "FechaNacimiento": "1970-05-14",
+    "Patrimonio": 1200000,
+    "Idiomas": [
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Kars",
+        "Produccion": "JoJo's Bizarre Adventure",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "Apariciones": 20,
+        "Generos": [
+          "Accion",
+          "Sobrenatural"
+        ]
+      },
+      {
+        "NombrePersonaje": "Ansem",
+        "Produccion": "Kingdom Hearts",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "Apariciones": 3,
+        "Generos": [
+          "Fantasia",
+          "Aventura"
+        ]
+      }
+    ],
+    "Edad": 56
+  },
+  {
+    "Nombre": "Sonia Isabel Rentería",
+    "Nacionalidad": "Colombia",
+    "FechaNacimiento": "1982-03-22",
+    "Patrimonio": 450000,
+    "Idiomas": [
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Narradora Documental Naturaleza",
+        "Produccion": "Planeta Salvaje",
+        "TipoProduccion": "independiente",
+        "Rol": "principal",
+        "Apariciones": 12,
+        "Generos": [
+          "Documental"
+        ]
+      },
+      {
+        "NombrePersonaje": "Elena",
+        "Produccion": "Cortometraje Raíces",
+        "TipoProduccion": "independiente",
+        "Rol": "principal",
+        "Apariciones": 1,
+        "Generos": [
+          "Drama"
+        ]
+      }
+    ],
+    "Edad": 44
+  },
+  {
+    "Nombre": "Ricardo Tejedo",
+    "Nacionalidad": "Mexico",
+    "FechaNacimiento": "1971-11-11",
+    "Patrimonio": 900000,
+    "Idiomas": [
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "SpongeBob SquarePants",
+        "Produccion": "Bob Esponja",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 300,
+        "Generos": [
+          "Comedia",
+          "Infantil"
+        ]
+      }
+    ],
+    "Edad": 54
+  },
+  {
+    "Nombre": "Yuri Lowenthal",
+    "Nacionalidad": "Estados Unidos",
+    "FechaNacimiento": "1971-02-01",
+    "Patrimonio": 5000000,
+    "Idiomas": [
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Spider-Man / Peter Parker",
+        "Produccion": "Marvel's Spider-Man",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 1,
+        "Generos": [
+          "Accion",
+          "Aventura",
+          "Superheroes"
+        ]
+      },
+      {
+        "NombrePersonaje": "Sasuke Uchiha",
+        "Produccion": "Naruto",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 220,
+        "Generos": [
+          "Accion",
+          "Aventura"
+        ]
+      }
+    ],
+    "Edad": 55
+  },
+  {
+    "Nombre": "Cristina Vee",
+    "Nacionalidad": "Estados Unidos",
+    "FechaNacimiento": "1986-04-30",
+    "Patrimonio": 2200000,
+    "Idiomas": [
+      "Ingles",
+      "Japones"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Sailor Moon",
+        "Produccion": "Sailor Moon Crystal",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 39,
+        "Generos": [
+          "Fantasia",
+          "Romance",
+          "Accion"
+        ]
+      },
+      {
+        "NombrePersonaje": "Killer Queen",
+        "Produccion": "JoJo's Bizarre Adventure",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "Apariciones": 15,
+        "Generos": [
+          "Accion",
+          "Sobrenatural"
+        ]
+      }
+    ],
+    "Edad": 40
+  },
+  {
+    "Nombre": "Hiroshi Kamiya",
+    "Nacionalidad": "Japon",
+    "FechaNacimiento": "1975-01-28",
+    "Patrimonio": 4300000,
+    "Idiomas": [
+      "Japones"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Levi Ackerman",
+        "Produccion": "Attack on Titan",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 87,
+        "Generos": [
+          "Accion",
+          "Drama",
+          "Terror"
+        ]
+      },
+      {
+        "NombrePersonaje": "Trafalgar Law",
+        "Produccion": "One Piece",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "Apariciones": 150,
+        "Generos": [
+          "Aventura",
+          "Comedia",
+          "Accion"
+        ]
+      }
+    ],
+    "Edad": 51
+  },
+  {
+    "Nombre": "Mamiko Noto",
+    "Nacionalidad": "Japon",
+    "FechaNacimiento": "1980-01-05",
+    "Patrimonio": 2800000,
+    "Idiomas": [
+      "Japones"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Sae Kashiwagi",
+        "Produccion": "Shuffle!",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 24,
+        "Generos": [
+          "Drama",
+          "Romance"
+        ]
+      }
+    ],
+    "Edad": 46
+  },
+  {
+    "Nombre": "Idzi Dutkiewicz",
+    "Nacionalidad": "Polonia",
+    "FechaNacimiento": "1990-06-17",
+    "Patrimonio": 150000,
+    "Idiomas": [
+      "Polaco",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Guardia Real",
+        "Produccion": "Cronicas del Reino (juego indie)",
+        "TipoProduccion": "independiente",
+        "Rol": "extra",
+        "Apariciones": 5,
+        "Generos": [
+          "Fantasia",
+          "RPG"
+        ]
+      }
+    ],
+    "Edad": 36
+  },
+  {
+    "Nombre": "Fernanda Robles",
+    "Nacionalidad": "Mexico",
+    "FechaNacimiento": "1976-09-09",
+    "Patrimonio": 1100000,
+    "Idiomas": [
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Hermione Granger",
+        "Produccion": "Harry Potter",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 8,
+        "Generos": [
+          "Fantasia",
+          "Aventura"
+        ]
+      },
+      {
+        "NombrePersonaje": "Scarlett Johansson (redoblaje)",
+        "Produccion": "Viuda Negra",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 1,
+        "Generos": [
+          "Accion",
+          "Superheroes"
+        ]
+      }
+    ],
+    "Edad": 49
+  },
+  {
+    "Nombre": "Antonio Banderas Villalobos",
+    "Nacionalidad": "España",
+    "FechaNacimiento": "1960-08-10",
+    "Patrimonio": 60000000,
+    "Idiomas": [
+      "Espanol",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "El Gato con Botas",
+        "Produccion": "Shrek",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 4,
+        "Generos": [
+          "Comedia",
+          "Fantasia",
+          "Infantil"
+        ]
+      }
+    ],
+    "Edad": 66
+  },
+  {
+    "Nombre": "Marina Huerta",
+    "Nacionalidad": "Mexico",
+    "FechaNacimiento": "1953-01-08",
+    "Patrimonio": 2600000,
+    "Idiomas": [
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Shin Chan",
+        "Produccion": "Shin Chan",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 900,
+        "Generos": [
+          "Comedia",
+          "Infantil"
+        ]
+      },
+      {
+        "NombrePersonaje": "Bulma",
+        "Produccion": "Dragon Ball",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "Apariciones": 150,
+        "Generos": [
+          "Accion",
+          "Aventura",
+          "Fantasia"
+        ]
+      }
+    ],
+    "Edad": 73
+  },
+  {
+    "Nombre": "Camilo Henao",
+    "Nacionalidad": "Colombia",
+    "FechaNacimiento": "1995-12-02",
+    "Patrimonio": 80000,
+    "Idiomas": [
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Narrador",
+        "Produccion": "Podcast Historias del Barrio (produccion indie)",
+        "TipoProduccion": "independiente",
+        "Rol": "principal",
+        "Apariciones": 45,
+        "Generos": [
+          "Drama",
+          "Documental"
+        ]
+      },
+      {
+        "NombrePersonaje": "Soldado 2",
+        "Produccion": "Cortometraje La Trinchera",
+        "TipoProduccion": "independiente",
+        "Rol": "extra",
+        "Apariciones": 1,
+        "Generos": [
+          "Drama",
+          "Guerra"
+        ]
+      }
+    ],
+    "Edad": 30
+  },
+  {
+    "Nombre": "Emma Watson-Diaz",
+    "Nacionalidad": "Argentina",
+    "FechaNacimiento": "1988-07-19",
+    "Patrimonio": 620000,
+    "Idiomas": [
+      "Espanol",
+      "Ingles",
+      "Portugues"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Widowmaker",
+        "Produccion": "Overwatch",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 1,
+        "Generos": [
+          "Accion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "NombrePersonaje": "Ada Wong",
+        "Produccion": "Resident Evil 4 Remake",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "Apariciones": 1,
+        "Generos": [
+          "Terror",
+          "Accion"
+        ]
+      }
+    ],
+    "Edad": 38
+  },
+  {
+    "Nombre": "Takahiro Sakurai",
+    "Nacionalidad": "Japon",
+    "FechaNacimiento": "1974-04-13",
+    "Patrimonio": 3900000,
+    "Idiomas": [
+      "Japones"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Cloud Strife",
+        "Produccion": "Final Fantasy VII Remake",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 1,
+        "Generos": [
+          "Fantasia",
+          "Accion",
+          "RPG"
+        ]
+      },
+      {
+        "NombrePersonaje": "Suzaku Kururugi",
+        "Produccion": "Code Geass",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 50,
+        "Generos": [
+          "Drama",
+          "Accion",
+          "Ciencia ficcion"
+        ]
+      }
+    ],
+    "Edad": 52
+  },
+  {
+    "Nombre": "Lupita Leal",
+    "Nacionalidad": "Mexico",
+    "FechaNacimiento": "1948-05-30",
+    "Patrimonio": 1500000,
+    "Idiomas": [
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Meg Griffin (temporadas iniciales)",
+        "Produccion": "Padre de Familia",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "Apariciones": 60,
+        "Generos": [
+          "Comedia",
+          "Sátira"
+        ]
+      }
+    ],
+    "Edad": 78
+  },
+  {
+    "Nombre": "Diego Reboredo",
+    "Nacionalidad": "España",
+    "FechaNacimiento": "1969-10-25",
+    "Patrimonio": 700000,
+    "Idiomas": [
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Harry Potter",
+        "Produccion": "Harry Potter",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 8,
+        "Generos": [
+          "Fantasia",
+          "Aventura"
+        ]
+      }
+    ],
+    "Edad": 56
+  },
+  {
+    "Nombre": "Wanda Sequera",
+    "Nacionalidad": "Venezuela",
+    "FechaNacimiento": "1972-02-14",
+    "Patrimonio": 550000,
+    "Idiomas": [
+      "Espanol",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Elsa",
+        "Produccion": "Frozen",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 2,
+        "Generos": [
+          "Fantasia",
+          "Musical",
+          "Infantil"
+        ]
+      }
+    ],
+    "Edad": 54
+  },
+  {
+    "Nombre": "Junichi Suwabe",
+    "Nacionalidad": "Japon",
+    "FechaNacimiento": "1972-03-29",
+    "Patrimonio": 3200000,
+    "Idiomas": [
+      "Japones"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Grimmjow Jaegerjaquez",
+        "Produccion": "Bleach",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "Apariciones": 70,
+        "Generos": [
+          "Accion",
+          "Sobrenatural"
+        ]
+      },
+      {
+        "NombrePersonaje": "Archer",
+        "Produccion": "Fate/stay night",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 26,
+        "Generos": [
+          "Fantasia",
+          "Accion"
+        ]
+      }
+    ],
+    "Edad": 54
+  },
+  {
+    "Nombre": "Isabel Martinon",
+    "Nacionalidad": "Mexico",
+    "FechaNacimiento": "1963-06-06",
+    "Patrimonio": 980000,
+    "Idiomas": [
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Chichi",
+        "Produccion": "Dragon Ball Z",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "Apariciones": 150,
+        "Generos": [
+          "Accion",
+          "Aventura",
+          "Fantasia"
+        ]
+      }
+    ],
+    "Edad": 63
+  },
+  {
+    "Nombre": "Greg Chun",
+    "Nacionalidad": "Estados Unidos",
+    "FechaNacimiento": "1971-09-03",
+    "Patrimonio": 1400000,
+    "Idiomas": [
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Joel Miller (voz adicional)",
+        "Produccion": "The Last of Us Part II",
+        "TipoProduccion": "profesional",
+        "Rol": "extra",
+        "Apariciones": 1,
+        "Generos": [
+          "Terror",
+          "Drama",
+          "Accion"
+        ]
+      },
+      {
+        "NombrePersonaje": "Yasuo",
+        "Produccion": "League of Legends",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "Apariciones": 1,
+        "Generos": [
+          "Fantasia",
+          "Accion"
+        ]
+      }
+    ],
+    "Edad": 55
+  },
+  {
+    "Nombre": "Valentina Souza",
+    "Nacionalidad": "Brasil",
+    "FechaNacimiento": "1998-01-12",
+    "Patrimonio": 35000,
+    "Idiomas": [
+      "Portugues",
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Protagonista",
+        "Produccion": "Cortometraje animado Luz de Luna",
+        "TipoProduccion": "independiente",
+        "Rol": "principal",
+        "Apariciones": 1,
+        "Generos": [
+          "Drama",
+          "Fantasia"
+        ]
+      }
+    ],
+    "Edad": 28
+  },
+  {
+    "Nombre": "Santiago Quiroga",
+    "Nacionalidad": "Argentina",
+    "FechaNacimiento": "1999-03-15",
+    "Patrimonio": 120000,
+    "Idiomas": [
+      "Espanol",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Denji",
+        "Produccion": "Chainsaw Man (redoblaje latino)",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 12,
+        "Generos": [
+          "Accion",
+          "Terror",
+          "Comedia"
+        ]
+      },
+      {
+        "NombrePersonaje": "Recluta 3",
+        "Produccion": "Cortometraje El Ultimo Turno",
+        "TipoProduccion": "independiente",
+        "Rol": "extra",
+        "Apariciones": 1,
+        "Generos": [
+          "Drama",
+          "Guerra"
+        ]
+      }
+    ],
+    "Edad": 27
+  },
+  {
+    "Nombre": "Camila Ferreyra",
+    "Nacionalidad": "Mexico",
+    "FechaNacimiento": "2001-07-22",
+    "Patrimonio": 95000,
+    "Idiomas": [
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Nezuko Kamado",
+        "Produccion": "Kimetsu no Yaiba (doblaje latino)",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 44,
+        "Generos": [
+          "Accion",
+          "Fantasia",
+          "Sobrenatural"
+        ]
+      }
+    ],
+    "Edad": 25
+  },
+  {
+    "Nombre": "Kenji Watanabe",
+    "Nacionalidad": "Japon",
+    "FechaNacimiento": "2000-11-05",
+    "Patrimonio": 210000,
+    "Idiomas": [
+      "Japones",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Yuji Itadori",
+        "Produccion": "Jujutsu Kaisen",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 47,
+        "Generos": [
+          "Accion",
+          "Sobrenatural",
+          "Fantasia"
+        ]
+      },
+      {
+        "NombrePersonaje": "Estudiante 4",
+        "Produccion": "Anime independiente Aula 6B",
+        "TipoProduccion": "independiente",
+        "Rol": "extra",
+        "Apariciones": 2,
+        "Generos": [
+          "Drama",
+          "Comedia"
+        ]
+      }
+    ],
+    "Edad": 25
+  },
+  {
+    "Nombre": "Sara Jimenez",
+    "Nacionalidad": "Colombia",
+    "FechaNacimiento": "2003-01-30",
+    "Patrimonio": 40000,
+    "Idiomas": [
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Protagonista",
+        "Produccion": "Videojuego indie Sombras del Rio",
+        "TipoProduccion": "independiente",
+        "Rol": "principal",
+        "Apariciones": 1,
+        "Generos": [
+          "RPG",
+          "Fantasia",
+          "Aventura"
+        ]
+      }
+    ],
+    "Edad": 23
+  },
+  {
+    "Nombre": "Lucas Bittencourt",
+    "Nacionalidad": "Brasil",
+    "FechaNacimiento": "1998-05-18",
+    "Patrimonio": 300000,
+    "Idiomas": [
+      "Portugues",
+      "Espanol",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Miguel O'Hara / Spider-Man 2099",
+        "Produccion": "Spider-Man: A Través del Spider-Verso",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "Apariciones": 1,
+        "Generos": [
+          "Accion",
+          "Superheroes",
+          "Aventura"
+        ]
+      }
+    ],
+    "Edad": 28
+  },
+  {
+    "Nombre": "Olivia Bennett",
+    "Nacionalidad": "Estados Unidos",
+    "FechaNacimiento": "2002-09-01",
+    "Patrimonio": 175000,
+    "Idiomas": [
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Ellie Williams (voz adicional)",
+        "Produccion": "The Last of Us Part II",
+        "TipoProduccion": "profesional",
+        "Rol": "extra",
+        "Apariciones": 1,
+        "Generos": [
+          "Terror",
+          "Drama",
+          "Accion"
+        ]
+      },
+      {
+        "NombrePersonaje": "Aria",
+        "Produccion": "Podcast de ficcion Estrellas Rotas",
+        "TipoProduccion": "independiente",
+        "Rol": "principal",
+        "Apariciones": 20,
+        "Generos": [
+          "Ciencia ficcion",
+          "Drama"
+        ]
+      }
+    ],
+    "Edad": 24
+  },
+  {
+    "Nombre": "Mateo Ibarra",
+    "Nacionalidad": "España",
+    "FechaNacimiento": "1997-12-09",
+    "Patrimonio": 260000,
+    "Idiomas": [
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Eren Yeager (redoblaje)",
+        "Produccion": "Attack on Titan (doblaje castellano)",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 87,
+        "Generos": [
+          "Accion",
+          "Drama",
+          "Terror"
+        ]
+      }
+    ],
+    "Edad": 28
+  },
+  {
+    "Nombre": "Yuki Nakamura",
+    "Nacionalidad": "Japon",
+    "FechaNacimiento": "2004-02-14",
+    "Patrimonio": 60000,
+    "Idiomas": [
+      "Japones"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Anya Forger",
+        "Produccion": "Spy x Family",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 37,
+        "Generos": [
+          "Comedia",
+          "Accion",
+          "Drama"
+        ]
+      }
+    ],
+    "Edad": 22
+  },
+  {
+    "Nombre": "Daniela Ospina",
+    "Nacionalidad": "Colombia",
+    "FechaNacimiento": "2000-06-27",
+    "Patrimonio": 55000,
+    "Idiomas": [
+      "Espanol",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Vendedora",
+        "Produccion": "Cortometraje animado El Mercado",
+        "TipoProduccion": "independiente",
+        "Rol": "secundario",
+        "Apariciones": 1,
+        "Generos": [
+          "Comedia",
+          "Drama"
+        ]
+      },
+      {
+        "NombrePersonaje": "Zelda",
+        "Produccion": "Fandub The Legend of Zelda",
+        "TipoProduccion": "independiente",
+        "Rol": "principal",
+        "Apariciones": 3,
+        "Generos": [
+          "Fantasia",
+          "Aventura",
+          "RPG"
+        ]
+      }
+    ],
+    "Edad": 26
+  },
+  {
+    "Nombre": "Ethan Brooks",
+    "Nacionalidad": "Estados Unidos",
+    "FechaNacimiento": "1999-10-11",
+    "Patrimonio": 430000,
+    "Idiomas": [
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Miles Morales",
+        "Produccion": "Marvel's Spider-Man 2",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 1,
+        "Generos": [
+          "Accion",
+          "Aventura",
+          "Superheroes"
+        ]
+      }
+    ],
+    "Edad": 26
+  },
+  {
+    "Nombre": "Renata Salgado",
+    "Nacionalidad": "Mexico",
+    "FechaNacimiento": "2005-04-03",
+    "Patrimonio": 18000,
+    "Idiomas": [
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Niña 1",
+        "Produccion": "Serie web independiente Mundo de Papel",
+        "TipoProduccion": "independiente",
+        "Rol": "extra",
+        "Apariciones": 5,
+        "Generos": [
+          "Infantil",
+          "Fantasia"
+        ]
+      }
+    ],
+    "Edad": 21
+  },
+  {
+    "Nombre": "Bartek Nowak",
+    "Nacionalidad": "Polonia",
+    "FechaNacimiento": "1996-10-20",
+    "Patrimonio": 140000,
+    "Idiomas": [
+      "Polaco",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Geralt (voz adicional)",
+        "Produccion": "The Witcher: Ronin",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "Apariciones": 1,
+        "Generos": [
+          "Fantasia",
+          "Accion"
+        ]
+      },
+      {
+        "NombrePersonaje": "Mercader",
+        "Produccion": "Juego indie Reino de Cenizas",
+        "TipoProduccion": "independiente",
+        "Rol": "extra",
+        "Apariciones": 2,
+        "Generos": [
+          "RPG",
+          "Fantasia"
+        ]
+      }
+    ],
+    "Edad": 29
+  },
+  {
+    "Nombre": "Isabella Marchetti",
+    "Nacionalidad": "Argentina",
+    "FechaNacimiento": "2002-08-08",
+    "Patrimonio": 88000,
+    "Idiomas": [
+      "Espanol",
+      "Italiano"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Marin Kitagawa",
+        "Produccion": "My Dress-Up Darling (doblaje latino)",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 24,
+        "Generos": [
+          "Romance",
+          "Comedia",
+          "Drama"
+        ]
+      }
+    ],
+    "Edad": 24
+  },
+  {
+    "Nombre": "Noah Fischer",
+    "Nacionalidad": "Estados Unidos",
+    "FechaNacimiento": "2001-01-25",
+    "Patrimonio": 205000,
+    "Idiomas": [
+      "Ingles",
+      "Aleman"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Jesse",
+        "Produccion": "Fandom animado indie Rustview",
+        "TipoProduccion": "independiente",
+        "Rol": "principal",
+        "Apariciones": 8,
+        "Generos": [
+          "Drama",
+          "Ciencia ficcion"
+        ]
+      }
+    ],
+    "Edad": 25
+  },
+  {
+    "Nombre": "Paula Andrade",
+    "Nacionalidad": "Brasil",
+    "FechaNacimiento": "1997-02-19",
+    "Patrimonio": 310000,
+    "Idiomas": [
+      "Portugues",
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Makima",
+        "Produccion": "Chainsaw Man (doblaje brasileño)",
+        "TipoProduccion": "profesional",
+        "Rol": "secundario",
+        "Apariciones": 12,
+        "Generos": [
+          "Accion",
+          "Terror",
+          "Sobrenatural"
+        ]
+      },
+      {
+        "NombrePersonaje": "Guardiana",
+        "Produccion": "Videojuego indie Ecos del Bosque",
+        "TipoProduccion": "independiente",
+        "Rol": "principal",
+        "Apariciones": 1,
+        "Generos": [
+          "Fantasia",
+          "RPG"
+        ]
+      }
+    ],
+    "Edad": 29
+  },
+  {
+    "Nombre": "Hugo Delgado",
+    "Nacionalidad": "España",
+    "FechaNacimiento": "2003-11-30",
+    "Patrimonio": 47000,
+    "Idiomas": [
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "NombrePersonaje": "Tanjiro Kamado (redoblaje)",
+        "Produccion": "Kimetsu no Yaiba (doblaje castellano)",
+        "TipoProduccion": "profesional",
+        "Rol": "principal",
+        "Apariciones": 44,
+        "Generos": [
+          "Accion",
+          "Fantasia",
+          "Sobrenatural"
+        ]
+      }
+    ],
+    "Edad": 22
+  }
+]

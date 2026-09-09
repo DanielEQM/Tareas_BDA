@@ -1,0 +1,214 @@
+{
+  "explainVersion": "1",
+  "queryPlanner": {
+    "namespace": "Actors.Voice-actors",
+    "parsedQuery": {
+      "$and": [
+        { "Idiomas": { "$eq": "Espanol" } },
+        { "Nacionalidad": { "$eq": "Mexico" } }
+      ]
+    },
+    "indexFilterSet": false,
+    "queryHash": "5090F661",
+    "planCacheShapeHash": "5090F661",
+    "planCacheKey": "4FED5F95",
+    "optimizationTimeMillis": 0,
+    "maxIndexedOrSolutionsReached": false,
+    "maxIndexedAndSolutionsReached": false,
+    "maxScansToExplodeReached": false,
+    "prunedSimilarIndexes": false,
+    "winningPlan": {
+      "isCached": false,
+      "stage": "PROJECTION_SIMPLE",
+      "transformBy": {
+        "_id": 0,
+        "Nombre": 1,
+        "Nacionalidad": 1,
+        "Idiomas": 1,
+        "Edad": 1
+      },
+      "inputStage": {
+        "stage": "SORT",
+        "sortPattern": { "Edad": 1 },
+        "memLimit": 104857600,
+        "limitAmount": 10,
+        "type": "simple",
+        "inputStage": {
+          "stage": "FETCH",
+          "filter": {
+            "Idiomas": { "$eq": "Espanol" }
+          },
+          "inputStage": {
+            "stage": "IXSCAN",
+            "keyPattern": { "Nacionalidad": 1 },
+            "indexName": "Nacionalidad_1",
+            "isMultiKey": false,
+            "multiKeyPaths": {
+              "Nacionalidad": []
+            },
+            "isUnique": false,
+            "isSparse": false,
+            "isPartial": false,
+            "indexVersion": 2,
+            "direction": "forward",
+            "indexBounds": {
+              "Nacionalidad": [
+                "[\"Mexico\", \"Mexico\"]"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "rejectedPlans": []
+  },
+  "executionStats": {
+    "executionSuccess": true,
+    "nReturned": 10,
+    "executionTimeMillis": 1,
+    "totalKeysExamined": 10,
+    "totalDocsExamined": 10,
+    "executionStages": {
+      "isCached": false,
+      "stage": "PROJECTION_SIMPLE",
+      "nReturned": 10,
+      "executionTimeMillisEstimate": 0,
+      "works": 22,
+      "advanced": 10,
+      "needTime": 11,
+      "needYield": 0,
+      "saveState": 0,
+      "restoreState": 0,
+      "isEOF": 1,
+      "transformBy": {
+        "_id": 0,
+        "Nombre": 1,
+        "Nacionalidad": 1,
+        "Idiomas": 1,
+        "Edad": 1
+      },
+      "inputStage": {
+        "stage": "SORT",
+        "nReturned": 10,
+        "executionTimeMillisEstimate": 0,
+        "works": 22,
+        "advanced": 10,
+        "needTime": 11,
+        "needYield": 0,
+        "saveState": 0,
+        "restoreState": 0,
+        "isEOF": 1,
+        "sortPattern": { "Edad": 1 },
+        "memLimit": 104857600,
+        "limitAmount": 10,
+        "type": "simple",
+        "totalDataSizeSorted": 5045,
+        "usedDisk": false,
+        "spills": 0,
+        "spilledDataStorageSize": 0,
+        "inputStage": {
+          "stage": "FETCH",
+          "filter": {
+            "Idiomas": { "$eq": "Espanol" }
+          },
+          "nReturned": 10,
+          "executionTimeMillisEstimate": 0,
+          "works": 11,
+          "advanced": 10,
+          "needTime": 0,
+          "needYield": 0,
+          "saveState": 0,
+          "restoreState": 0,
+          "isEOF": 1,
+          "docsExamined": 10,
+          "alreadyHasObj": 0,
+          "inputStage": {
+            "stage": "IXSCAN",
+            "nReturned": 10,
+            "executionTimeMillisEstimate": 0,
+            "works": 11,
+            "advanced": 10,
+            "needTime": 0,
+            "needYield": 0,
+            "saveState": 0,
+            "restoreState": 0,
+            "isEOF": 1,
+            "keyPattern": { "Nacionalidad": 1 },
+            "indexName": "Nacionalidad_1",
+            "isMultiKey": false,
+            "multiKeyPaths": {
+              "Nacionalidad": []
+            },
+            "isUnique": false,
+            "isSparse": false,
+            "isPartial": false,
+            "indexVersion": 2,
+            "direction": "forward",
+            "indexBounds": {
+              "Nacionalidad": [
+                "[\"Mexico\", \"Mexico\"]"
+              ]
+            },
+            "keysExamined": 10,
+            "seeks": 1,
+            "dupsTested": 0,
+            "dupsDropped": 0
+          }
+        }
+      }
+    }
+  },
+  "queryShapeHash": "DA58CFD7A4D7D96C8D7A4A3635EAAAA310854D7EE35FE7EFF5A5420749BBAEDA",
+  "command": {
+    "find": "Voice-actors",
+    "filter": {
+      "$and": [
+        { "Nacionalidad": "Mexico" },
+        { "Idiomas": "Espanol" }
+      ]
+    },
+    "sort": { "Edad": 1 },
+    "projection": {
+      "_id": 0,
+      "Nombre": 1,
+      "Nacionalidad": 1,
+      "Idiomas": 1,
+      "Edad": 1
+    },
+    "skip": 0,
+    "limit": 10,
+    "maxTimeMS": 60000,
+    "$db": "Actors"
+  },
+  "serverInfo": {
+    "host": "ccc8ff83838f",
+    "port": 30001,
+    "version": "8.0.29",
+    "gitVersion": "559d67c651f7393e62757234a0b25cb7a8622148"
+  },
+  "serverParameters": {
+    "internalQueryFacetBufferSizeBytes": 104857600,
+    "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+    "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+    "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+    "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+    "internalQueryProhibitBlockingMergeOnMongoS": 0,
+    "internalQueryMaxAddToSetBytes": 104857600,
+    "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+    "internalQueryFrameworkControl": "trySbeRestricted",
+    "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+  },
+  "ok": 1,
+  "$clusterTime": {
+    "clusterTime": {
+      "$timestamp": "7682941750825975815"
+    },
+    "signature": {
+      "hash": "AAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+      "keyId": 0
+    }
+  },
+  "operationTime": {
+    "$timestamp": "7682941750825975815"
+  }
+}

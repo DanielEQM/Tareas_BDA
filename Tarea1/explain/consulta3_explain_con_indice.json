@@ -1,0 +1,232 @@
+{
+  "explainVersion": "1",
+  "queryPlanner": {
+    "namespace": "Actors.Voice-actors",
+    "parsedQuery": {
+      "$and": [
+        {
+          "Personajes": {
+            "$elemMatch": {
+              "$and": [
+                {
+                  "Generos": { "$eq": "Accion" }
+                },
+                { "Rol": { "$eq": "principal" } }
+              ]
+            }
+          }
+        },
+        { "Edad": { "$lt": 30 } }
+      ]
+    },
+    "indexFilterSet": false,
+    "queryHash": "AFE20E1B",
+    "planCacheShapeHash": "AFE20E1B",
+    "planCacheKey": "AAA6E12C",
+    "optimizationTimeMillis": 0,
+    "maxIndexedOrSolutionsReached": false,
+    "maxIndexedAndSolutionsReached": false,
+    "maxScansToExplodeReached": false,
+    "prunedSimilarIndexes": false,
+    "winningPlan": {
+      "isCached": false,
+      "stage": "LIMIT",
+      "limitAmount": 10,
+      "inputStage": {
+        "stage": "PROJECTION_SIMPLE",
+        "transformBy": {
+          "_id": 0,
+          "Nombre": 1,
+          "Edad": 1,
+          "Nacionalidad": 1,
+          "Personajes": 1
+        },
+        "inputStage": {
+          "stage": "FETCH",
+          "filter": {
+            "Personajes": {
+              "$elemMatch": {
+                "$and": [
+                  {
+                    "Generos": { "$eq": "Accion" }
+                  },
+                  {
+                    "Rol": { "$eq": "principal" }
+                  }
+                ]
+              }
+            }
+          },
+          "inputStage": {
+            "stage": "IXSCAN",
+            "keyPattern": { "Edad": 1 },
+            "indexName": "Edad_1",
+            "isMultiKey": false,
+            "multiKeyPaths": { "Edad": [] },
+            "isUnique": false,
+            "isSparse": false,
+            "isPartial": false,
+            "indexVersion": 2,
+            "direction": "forward",
+            "indexBounds": {
+              "Edad": ["[-inf.0, 30)"]
+            }
+          }
+        }
+      }
+    },
+    "rejectedPlans": []
+  },
+  "executionStats": {
+    "executionSuccess": true,
+    "nReturned": 7,
+    "executionTimeMillis": 0,
+    "totalKeysExamined": 17,
+    "totalDocsExamined": 17,
+    "executionStages": {
+      "isCached": false,
+      "stage": "LIMIT",
+      "nReturned": 7,
+      "executionTimeMillisEstimate": 0,
+      "works": 18,
+      "advanced": 7,
+      "needTime": 10,
+      "needYield": 0,
+      "saveState": 0,
+      "restoreState": 0,
+      "isEOF": 1,
+      "limitAmount": 10,
+      "inputStage": {
+        "stage": "PROJECTION_SIMPLE",
+        "nReturned": 7,
+        "executionTimeMillisEstimate": 0,
+        "works": 18,
+        "advanced": 7,
+        "needTime": 10,
+        "needYield": 0,
+        "saveState": 0,
+        "restoreState": 0,
+        "isEOF": 1,
+        "transformBy": {
+          "_id": 0,
+          "Nombre": 1,
+          "Edad": 1,
+          "Nacionalidad": 1,
+          "Personajes": 1
+        },
+        "inputStage": {
+          "stage": "FETCH",
+          "filter": {
+            "Personajes": {
+              "$elemMatch": {
+                "$and": [
+                  {
+                    "Generos": { "$eq": "Accion" }
+                  },
+                  {
+                    "Rol": { "$eq": "principal" }
+                  }
+                ]
+              }
+            }
+          },
+          "nReturned": 7,
+          "executionTimeMillisEstimate": 0,
+          "works": 18,
+          "advanced": 7,
+          "needTime": 10,
+          "needYield": 0,
+          "saveState": 0,
+          "restoreState": 0,
+          "isEOF": 1,
+          "docsExamined": 17,
+          "alreadyHasObj": 0,
+          "inputStage": {
+            "stage": "IXSCAN",
+            "nReturned": 17,
+            "executionTimeMillisEstimate": 0,
+            "works": 18,
+            "advanced": 17,
+            "needTime": 0,
+            "needYield": 0,
+            "saveState": 0,
+            "restoreState": 0,
+            "isEOF": 1,
+            "keyPattern": { "Edad": 1 },
+            "indexName": "Edad_1",
+            "isMultiKey": false,
+            "multiKeyPaths": { "Edad": [] },
+            "isUnique": false,
+            "isSparse": false,
+            "isPartial": false,
+            "indexVersion": 2,
+            "direction": "forward",
+            "indexBounds": {
+              "Edad": ["[-inf.0, 30)"]
+            },
+            "keysExamined": 17,
+            "seeks": 1,
+            "dupsTested": 0,
+            "dupsDropped": 0
+          }
+        }
+      }
+    }
+  },
+  "queryShapeHash": "CC8F34527A0BD851D8618CE2A6D58958901282E7C8A9DB8219F104BEE23FA9DF",
+  "command": {
+    "find": "Voice-actors",
+    "filter": {
+      "Edad": { "$lt": 30 },
+      "Personajes": {
+        "$elemMatch": {
+          "Rol": "principal",
+          "Generos": "Accion"
+        }
+      }
+    },
+    "sort": { "Edad": 1 },
+    "projection": {
+      "_id": 0,
+      "Nombre": 1,
+      "Edad": 1,
+      "Nacionalidad": 1,
+      "Personajes": 1
+    },
+    "skip": 0,
+    "limit": 10,
+    "maxTimeMS": 60000,
+    "$db": "Actors"
+  },
+  "serverInfo": {
+    "host": "ccc8ff83838f",
+    "port": 30001,
+    "version": "8.0.29",
+    "gitVersion": "559d67c651f7393e62757234a0b25cb7a8622148"
+  },
+  "serverParameters": {
+    "internalQueryFacetBufferSizeBytes": 104857600,
+    "internalQueryFacetMaxOutputDocSizeBytes": 104857600,
+    "internalLookupStageIntermediateDocumentMaxSizeBytes": 104857600,
+    "internalDocumentSourceGroupMaxMemoryBytes": 104857600,
+    "internalQueryMaxBlockingSortMemoryUsageBytes": 104857600,
+    "internalQueryProhibitBlockingMergeOnMongoS": 0,
+    "internalQueryMaxAddToSetBytes": 104857600,
+    "internalDocumentSourceSetWindowFieldsMaxMemoryBytes": 104857600,
+    "internalQueryFrameworkControl": "trySbeRestricted",
+    "internalQueryPlannerIgnoreIndexWithCollationForRegex": 1
+  },
+  "ok": 1,
+  "$clusterTime": {
+    "clusterTime": {
+      "$timestamp": "7682987986148917249"
+    },
+    "signature": {
+      "hash": "AAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+      "keyId": 0
+    }
+  },
+  "operationTime": {
+    "$timestamp": "7682987986148917249"
+  }
+}
